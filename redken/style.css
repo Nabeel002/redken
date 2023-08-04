@@ -1,0 +1,138 @@
+@font-face {
+  font-family: helvaticaRegular;
+  src: url(../assets/fonts/HelveticaNowDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: helvaticaBold;
+  src: url(../assets/fonts/HelveticaNowDisplay-Bold.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainTxt {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+.greetingTxt {
+  font-size: 110px;
+  font-family: helvaticaBold;
+  color: white;
+  line-height: 90px;
+}
+
+.txt2 {
+  font-size: 70px;
+  font-family: helvaticaBold;
+  color: white;
+}
+
+.txt3 {
+  font-size: 56px;
+  font-family: helvaticaBold;
+  color: white;
+  margin-top: 15px;
+}
+
+.txt4 {
+  font-size: 82.13px;
+  font-family: helvaticaBold;
+  color: white;
+  background-color: #d6068e;
+  margin-bottom: 15px;
+}
+.txt5 {
+  font-size: 40px;
+  font-family: helvaticaBold;
+  color: white;
+}
+
+.disclaimer {
+  font-family: helvaticaRegular;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .container img {
+    height: 50%;
+  }
+  .container {
+    background-color: #414141;
+  }
+  .mainTxt {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  .greetingTxt {
+    font-size: 50px;
+    font-family: helvaticaBold;
+    color: white;
+    line-height: unset;
+  }
+
+  .txt2 {
+    font-size: 30px;
+    font-family: helvaticaBold;
+    color: white;
+  }
+
+  .txt3 {
+    font-size: 25px;
+    font-family: helvaticaBold;
+    color: white;
+    margin-top: 15px;
+  }
+
+  .txt4 {
+    font-size: 26px;
+    font-family: helvaticaBold;
+    color: white;
+    background-color: #d6068e;
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  .txt5 {
+    font-size: 20px;
+    font-family: helvaticaBold;
+    color: white;
+  }
+
+  .disclaimer {
+    font-family: helvaticaRegular;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 72%;
+    left: 10px;
+  }
+}
