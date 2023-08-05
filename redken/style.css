@@ -64,15 +64,16 @@ left: 15%;
 
 
 .txt4 {
-  font-size: 60px;
+font-size: 65px;
   font-family: helvaticaBold;
   color: white;
   background-color: #d6068e;
   margin-bottom: 15px;
+  width: 971px;
 }
 
 .txt5 {
-  font-size: 40px;
+  font-size: 32px;
   font-family: helvaticaBold;
   color: white;
 }
@@ -124,6 +125,62 @@ left: 15%;
     background-color: #d6068e;
     margin-bottom: 15px;
     margin-right: 20px;
+  }
+  .txt5 {
+    font-size: 20px;
+    font-family: helvaticaBold;
+    color: white;
+  }
+
+  .disclaimer {
+    font-family: helvaticaRegular;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 72%;
+    left: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 1150px) and (min-width: 850px) {
+ 
+  .container {
+    background-color: #414141;
+  }
+  .mainTxt {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  .greetingTxt {
+    font-size: 50px;
+    font-family: helvaticaBold;
+    color: white;
+    line-height: unset;
+  }
+
+  .txt2 {
+    font-size: 30px;
+    font-family: helvaticaBold;
+    color: white;
+  }
+
+  .txt3 {
+    font-size: 32px;
+    font-family: helvaticaBold;
+    color: white;
+    margin-top: 15px;
+  }
+
+  .txt4 {
+font-size: 40px;
+    font-family: helvaticaBold;
+    color: white;
+    background-color: #d6068e;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 601px;
   }
   .txt5 {
     font-size: 20px;
