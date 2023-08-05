@@ -36,42 +36,46 @@ body {
 
 .mainTxt {
   position: absolute;
-  top: 30%;
-  left: 17%;
+bottom: 72px;
+left: 15%;
 }
+
 .greetingTxt {
-  font-size: 110px;
+  font-size: 100px;
   font-family: helvaticaBold;
   color: white;
   line-height: 90px;
 }
 
+
 .txt2 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: helvaticaBold;
   color: white;
 }
 
+
 .txt3 {
-  font-size: 56px;
+  font-size: 50px;
   font-family: helvaticaBold;
   color: white;
   margin-top: 15px;
 }
 
+
 .txt4 {
-  font-size: 82.13px;
+  font-size: 60px;
   font-family: helvaticaBold;
   color: white;
   background-color: #d6068e;
   margin-bottom: 15px;
 }
+
 .txt5 {
   font-size: 40px;
   font-family: helvaticaBold;
   color: white;
 }
-
 .disclaimer {
   font-family: helvaticaRegular;
   color: white;
